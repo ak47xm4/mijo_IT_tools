@@ -37,18 +37,6 @@ def txt_to_lines(txt_file):
 
 def txt_to_string(txt_file):
     # with open(txt_file , 'r' , encoding='utf-8' ) as file:
-    '''
-    try:
-        with open(txt_file , 'r' , encoding='cp1252' ) as file:
-            aaa = file.read()
-            
-            return aaa
-    except:
-        with open(txt_file , 'r' , encoding='utf-8' ) as file:
-            aaa = file.read()
-        
-            return aaa
-    '''
     
     # with open(txt_file , 'r' , encoding='cp1252' ) as file:
     
@@ -89,68 +77,6 @@ def extract_cpuz_txt_monitors(file,monitor_number):
     return data
     
     
-'''
-# Function to extract relevant information (Model, Disk Size, Health Status) from the text data
-def extract_disk_info(lines, computer_name):
-    
-    scan_Date = ""
-    for line in lines:
-        if "Date" in line:
-            scan_Date = line.split(":")[1].strip()
-            scan_Date +=':'
-            scan_Date += line.split(":")[2].strip()
-    
-    
-    disk_data = []
-    current_disk = {}
-    
-    for line in lines:
-        current_disk['scan_Date'] = scan_Date
-        current_disk['PC_name'] = computer_name
-        
-        if "Model" in line:
-            current_disk['Model'] = line.split(":")[1].strip()
-        elif "Serial Number" in line:
-            current_disk['SN'] = line.split(":")[1].strip()
-        elif "Disk Size" in line:
-            current_disk['Disk Size'] = line.split(":")[1].strip()
-        elif "Interface" in line:
-            current_disk['Interface'] = line.split(":")[1].strip()
-        elif "Transfer Mode" in line:
-            current_disk['TM'] = line.split(":")[1].strip()
-        elif "Health Status" in line:
-            # Extracting the percentage value from the Health Status line
-            health_status_match = re.search(r'\d+\s%', line)
-            if health_status_match:
-                aaa = ''
-                aaa = health_status_match.group()
-                aaa = str(aaa)
-                aaa = aaa.replace('%','')
-                aaa = aaa.replace(' ','')
-                # aaa = int(aaa)
-                # print(aaa)
-                aaa_3padzero = aaa.zfill(3)
-                # print(aaa_3padzero)
-                
-                current_disk['Health Status'] = aaa_3padzero
-            else:
-                current_disk['Health Status'] = 'Unknown'
-        elif "Drive Letter" in line:
-            sss = line.split(":")
-            aaa = ''
-            for i in range(1,len(sss)):
-                aaa += sss[i].strip()
-                # aaa +=': '
-            
-            current_disk['Drive Letter'] = aaa
-
-            
-            # Append the current disk data to the list and reset the current disk dictionary
-            disk_data.append(current_disk)
-            current_disk = {}
-            
-    return disk_data
-'''
 
 def extract_monitor_details(text, monitor_number):
     # Regex pattern to find the details of a specific monitor

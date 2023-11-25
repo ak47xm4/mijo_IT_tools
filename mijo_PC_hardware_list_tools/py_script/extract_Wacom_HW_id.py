@@ -37,18 +37,6 @@ def txt_to_lines(txt_file):
 
 def txt_to_string(txt_file):
     # with open(txt_file , 'r' , encoding='utf-8' ) as file:
-    '''
-    try:
-        with open(txt_file , 'r' , encoding='cp1252' ) as file:
-            aaa = file.read()
-            
-            return aaa
-    except:
-        with open(txt_file , 'r' , encoding='utf-8' ) as file:
-            aaa = file.read()
-        
-            return aaa
-    '''
     
     # with open(txt_file , 'r' , encoding='cp1252' ) as file:
     
