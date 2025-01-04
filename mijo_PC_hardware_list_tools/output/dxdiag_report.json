@@ -1,0 +1,114 @@
+{
+  "system_info": {
+    "machine_name": "",
+    "operating_system": "Windows 10 Pro 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)",
+    "language": "English (Regional Setting: English)",
+    "processor": "AMD Ryzen 7 5800X3D 8-Core Processor            (16 CPUs), ~3.4GHz",
+    "memory": "32768MB RAM",
+    "time_of_this_report": "12/29/2024, 20:42:25"
+  },
+  "display_devices": [
+    {
+      "card_name": "NVIDIA GeForce RTX 3080",
+      "manufacturer": "NVIDIA",
+      "chip_type": "NVIDIA GeForce RTX 3080",
+      "display_memory": "26390 MB",
+      "dedicated_memory": "10053 MB",
+      "current_mode": "3840 x 2160 (32 bit) (120Hz)",
+      "hdr_support": "Supported",
+      "monitor_name": "Generic PnP Monitor",
+      "monitor_model": "BenQ EX3210U"
+    },
+    {
+      "card_name": "NVIDIA GeForce RTX 3080",
+      "manufacturer": "NVIDIA",
+      "chip_type": "NVIDIA GeForce RTX 3080",
+      "display_memory": "26390 MB",
+      "dedicated_memory": "10053 MB",
+      "current_mode": "1920 x 1080 (32 bit) (60Hz)",
+      "hdr_support": "Not Supported",
+      "monitor_name": "Generic PnP Monitor",
+      "monitor_model": "VC279"
+    }
+  ],
+  "direct_input_devices": [
+    {
+      "device_name": "Mouse"
+    },
+    {
+      "device_name": "Keyboard"
+    },
+    {
+      "device_name": "Kensington SlimBlade Pro Trackball(2.4GHz Receiver)"
+    },
+    {
+      "device_name": "INZONE H9 / INZONE H7"
+    },
+    {
+      "device_name": "Razer DeathAdder V3"
+    },
+    {
+      "device_name": "Programmable Hotkeys"
+    },
+    {
+      "device_name": "USB FS Keyboard"
+    },
+    {
+      "device_name": "HID-compliant consumer control device"
+    },
+    {
+      "device_name": "Kensington SlimBlade Pro Trackball(2.4GHz Receiver)"
+    },
+    {
+      "device_name": "HID-compliant consumer control device"
+    },
+    {
+      "device_name": "Razer DeathAdder V3"
+    },
+    {
+      "device_name": "USB FS Keyboard"
+    },
+    {
+      "device_name": "Kensington SlimBlade Pro Trackball(2.4GHz Receiver)"
+    },
+    {
+      "device_name": "INZONE H9 / INZONE H7"
+    },
+    {
+      "device_name": "Razer DeathAdder V3"
+    },
+    {
+      "device_name": "Stream Deck Plus"
+    },
+    {
+      "device_name": "Kensington SlimBlade Pro Trackball(2.4GHz Receiver)"
+    },
+    {
+      "device_name": "INZONE H9 / INZONE H7"
+    },
+    {
+      "device_name": "ELECOM OpticalMouse"
+    },
+    {
+      "device_name": "ELECOM OpticalMouse"
+    },
+    {
+      "device_name": "ELECOM OpticalMouse"
+    },
+    {
+      "device_name": "Kensington SlimBlade Pro Trackball(2.4GHz Receiver)"
+    },
+    {
+      "device_name": "AURA LED Controller"
+    },
+    {
+      "device_name": "DragonFly HID MQA"
+    },
+    {
+      "device_name": "Kensington SlimBlade Pro Trackball(2.4GHz Receiver)"
+    },
+    {
+      "device_name": "Razer DeathAdder V3"
+    }
+  ]
+}
