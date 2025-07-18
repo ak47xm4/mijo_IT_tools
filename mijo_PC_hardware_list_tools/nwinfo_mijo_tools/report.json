@@ -1,0 +1,1856 @@
+{
+  "Build Time": "Jul  6 2025 01:40:23",
+  "libnw": "v1.4.1.0",
+  "MSVC Version": "194435209",
+  "NT Version": "10.0.19045",
+  "Driver": "HwRwDrv",
+  "Driver Path": "C:\\Users\\Administrator\\Downloads\\nwinfo\\HwRwDrvx64.sys",
+  "Driver Version": "1.0.6.0",
+  "Language ID": "1033",
+  "libcpuid": "0.8.0",
+  "CrystalDiskInfo": "9.7.0",
+  "PCI ID": "2025.06.21",
+  "USB ID": "2025.04.01",
+  "PNP ID": "2025.07.06",
+  "JEP106 ID": "2025.07.04",
+  "Error": [ "Warning: APIC ID are not supported, core count can be wrong if SMT is disabled and cache instances count will not be available.\n", "Truncated EDID data" ],
+  "CPUID": {
+    "Total CPUs": 16,
+    "Hypervisor": "Microsoft Hyper-V",
+    "Hypervisor Signature": "Microsoft Hv",
+    "Processor Count": 1,
+    "CPU Clock (MHz)": 3400,
+    "CPU0": {
+      "Purpose": "general",
+      "Vendor": "AuthenticAMD",
+      "Vendor Name": "AMD",
+      "Brand": "AMD Ryzen 7 5800X3D 8-Core Processor           ",
+      "Code Name": "Ryzen 7 (Vermeer)",
+      "Technology": "TSMC N7FF",
+      "Family": "0Fh",
+      "Model": "01h",
+      "Stepping": "02h",
+      "Ext.Family": "19h",
+      "Ext.Model": "21h",
+      "Cores": 8,
+      "Logical CPUs": 16,
+      "Affinity Mask": "0000FFFF",
+      "SSE Units": "64 bits (authoritative)",
+      "Multiplier": "34.0 (22 - 34)",
+      "Temperature (C)": 59,
+      "Core Voltage (V)": 1.10,
+      "Bus Clock (MHz)": 100.00,
+      "Energy (J)": 16636.75,
+      "PL1 (W)": 0.00,
+      "PL2 (W)": 0.00,
+      "Features": [ "fpu", "vme", "de", "pse", "tsc", "msr", "pae", "mce", "cx8", "apic", "mtrr", "sep", "pge", "mca", "cmov", "pat", "pse36", "clflush", "mmx", "fxsr", "sse", "sse2", "ht", "pni", "pclmul", "ssse3", "cx16", "sse4_1", "sse4_2", "syscall", "movbe", "popcnt", "aes", "xsave", "osxsave", "avx", "mmxext", "nx", "fxsr_opt", "rdtscp", "lm", "lahf_lm", "cmp_legacy", "abm", "misalignsse", "sse4a", "3dnowprefetch", "osvw", "wdt", "ts", "ttp", "hwpstate", "constant_tsc", "fma3", "f16c", "rdrand", "cpb", "aperfmperf", "avx2", "bmi1", "bmi2", "sha_ni", "rdseed", "adx", "hypervisor" ],
+      "Cache": {
+        "L1 D": "32 KB, 8-way",
+        "L1 I": "32 KB, 8-way",
+        "L2": "512 KB, 8-way",
+        "L3": "96.00 MB, 16-way"
+      }
+    }
+  },
+  "Disks": [
+    {
+      "Path": "\\\\.\\PhysicalDrive0",
+      "HWID": "SCSI\\DISK&VEN_TOSHIBA&PROD_MD04ACA600\\7&31E458EB&0&000000",
+      "HW Name": "TOSHIBA MD04ACA600",
+      "Product ID": "TOSHIBA MD04ACA600",
+      "Product Rev": "FS2A",
+      "Serial Number": "Z8F7KIUYFFQC",
+      "Serial Number (Raw)": "Z8F7KIUYFFQC",
+      "Type": "SATA",
+      "Removable": false,
+      "Size": "5.45 TB",
+      "Partition Table": "GPT",
+      "GPT GUID": "{80EF8F84-CBFE-6146-A2B6-D1710F9B84A8}",
+      "SSD": false,
+      "Temperature (C)": 44,
+      "Health Status": "Caution",
+      "Current Transfer Mode": "SATA/600",
+      "Max Transfer Mode": "SATA/600",
+      "Standard": "ATA8-ACS",
+      "Features": [ "S.M.A.R.T.", "48bit LBA", "APM", "NCQ", "GPL" ],
+      "Buffer Size": "0 B",
+      "Rotation Rate (RPM)": 7200,
+      "Power On Count": 2769,
+      "Power On Time (Hours)": 19449,
+      "SMART Format": "Cur Wor Thr RawValues(6)",
+      "SMART 01": "100 100  50 000000000000 Read Error Rate",
+      "SMART 02": "100 100  50 000000000000 Throughput Performance",
+      "SMART 03": "100 100   1 000000002B3F Spin-Up Time",
+      "SMART 04": "100 100   0 000000000AD1 Start/Stop Count",
+      "SMART 05": "100 100  50 000000000100 Reallocated Sectors Count",
+      "SMART 07": "100 100  50 000000000000 Seek Error Rate",
+      "SMART 08": "100 100  50 000000000000 Seek Time Performance",
+      "SMART 09": " 52  52   0 000000004BF9 Power-On Hours",
+      "SMART 0A": "155 100  30 000000000000 Spin Retry Count",
+      "SMART 0C": "100 100   0 000000000AD1 Power Cycle Count",
+      "SMART BF": "100 100   0 00000000002E G-Sense Error Rate",
+      "SMART C0": "100 100   0 000000000036 Power-off Retract Count",
+      "SMART C1": " 98  98   0 000000005FE0 Load/Unload Cycle Count",
+      "SMART C2": "100 100   0 003B000E002C Temperature",
+      "SMART C4": "100 100   0 000000000020 Reallocation Event Count",
+      "SMART C5": "100 100   0 000000000000 Current Pending Sector Count",
+      "SMART C6": "100 100   0 000000000000 Uncorrectable Sector Count",
+      "SMART C7": "200 253   0 000000000000 UltraDMA CRC Error Count",
+      "SMART DC": "100 100   0 000000000000 Disk Shift",
+      "SMART DE": " 67  67   0 0000000033BA Loaded Hours",
+      "SMART DF": "100 100   0 000000000000 Load/Unload Retry Count",
+      "SMART E0": "100 100   0 000000000000 Load Friction",
+      "SMART E2": "100 100   0 000000000228 Load 'In'-time",
+      "SMART F0": "100 100   1 000000000000 Head Flying Hours",
+      "Volumes": [
+        {
+          "Path": "\\Device\\HarddiskVolume6",
+          "Volume GUID": "\\\\?\\Volume{9841f29a-34e3-4e9e-95f1-8e432f150e18}",
+          "Starting LBA": 264192,
+          "Partition Number": 2,
+          "Partition Type": "{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}",
+          "Partition ID": "{9841F29A-34E3-4E9E-95F1-8E432F150E18}",
+          "Partition Flag": "DATA",
+          "Label": "New Volume",
+          "Filesystem": "NTFS",
+          "FS UUID": "76ceb5c6ceb57f45",
+          "Free Space": "622.10 GB",
+          "Total Space": "5.45 TB",
+          "Usage": "88.87%",
+          "Volume Path Names": [
+            {
+              "Drive Letter": "D:\\"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "\\\\.\\PhysicalDrive1",
+      "HWID": "SCSI\\DISK&VEN_WDC&PROD_WD20EFRX-68AX9N0\\7&31E458EB&0&010000",
+      "HW Name": "WDC WD20EFRX-68AX9N0",
+      "Product ID": "WDC WD20EFRX-68AX9N0",
+      "Product Rev": "80.00A80",
+      "Serial Number": "WD-WMC300844542",
+      "Serial Number (Raw)": "WD-WMC300844542",
+      "Type": "SATA",
+      "Removable": false,
+      "Size": "1.81 TB",
+      "Partition Table": "GPT",
+      "GPT GUID": "{5FFC5F6C-712D-CE45-A50C-F0C6BA36E857}",
+      "Temperature (C)": 37,
+      "Health Status": "Good",
+      "Current Transfer Mode": "SATA/600",
+      "Max Transfer Mode": "SATA/600",
+      "Standard": "ACS-2",
+      "Features": [ "S.M.A.R.T.", "48bit LBA", "NCQ", "Streaming", "GPL" ],
+      "SSD": false,
+      "Buffer Size": "0 B",
+      "Rotation Rate (RPM)": 0,
+      "Power On Count": 3576,
+      "Power On Time (Hours)": 38269,
+      "SMART Format": "Cur Wor Thr RawValues(6)",
+      "SMART 01": "200 200  51 00000000021B Read Error Rate",
+      "SMART 03": "172 169  21 000000001106 Spin-Up Time",
+      "SMART 04": " 97  97   0 000000000E0F Start/Stop Count",
+      "SMART 05": "200 200 140 000000000000 Reallocated Sectors Count",
+      "SMART 07": "200 200   0 000000000000 Seek Error Rate",
+      "SMART 09": " 48  48   0 00000000957D Power-On Hours",
+      "SMART 0A": "100 100   0 000000000000 Spin Retry Count",
+      "SMART 0B": "100 100   0 000000000000 Recalibration Retries",
+      "SMART 0C": " 97  97   0 000000000DF8 Power Cycle Count",
+      "SMART C0": "199 199   0 000000000564 Power-off Retract Count",
+      "SMART C1": "200 200   0 0000000008AA Load/Unload Cycle Count",
+      "SMART C2": "110  97   0 000000000025 Temperature",
+      "SMART C4": "200 200   0 000000000000 Reallocation Event Count",
+      "SMART C5": "200 200   0 000000000000 Current Pending Sector Count",
+      "SMART C6": "100 253   0 000000000000 Uncorrectable Sector Count",
+      "SMART C7": "200 200   0 000000000000 UltraDMA CRC Error Count",
+      "SMART C8": "100 253   0 000000000000 Write Error Rate",
+      "Volumes": [
+        {
+          "Path": "\\Device\\HarddiskVolume8",
+          "Volume GUID": "\\\\?\\Volume{2b9a1f75-d378-45e1-a19a-f12d043c8372}",
+          "Starting LBA": 32768,
+          "Partition Number": 2,
+          "Partition Type": "{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}",
+          "Partition ID": "{2B9A1F75-D378-45E1-A19A-F12D043C8372}",
+          "Partition Flag": "DATA",
+          "Label": "新增磁碟區",
+          "Filesystem": "NTFS",
+          "FS UUID": "3ad8a8a1d8a85d3f",
+          "Free Space": "785.48 GB",
+          "Total Space": "1.81 TB",
+          "Usage": "57.84%",
+          "Volume Path Names": [
+            {
+              "Drive Letter": "E:\\"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "\\\\.\\PhysicalDrive2",
+      "HWID": "SCSI\\DISK&VEN_&PROD_CT1000MX500SSD1\\7&31E458EB&0&020000",
+      "HW Name": "CT1000MX500SSD1",
+      "Product ID": "CT1000MX500SSD1",
+      "Product Rev": "M3CR023",
+      "Serial Number": "1909E1EDB9FA",
+      "Serial Number (Raw)": "1909E1EDB9FA",
+      "Type": "SATA",
+      "Removable": false,
+      "Size": "931.51 GB",
+      "Partition Table": "GPT",
+      "GPT GUID": "{35AF0E32-AC0B-E041-9C5B-6468290731C3}",
+      "SSD": true,
+      "Temperature (C)": 40,
+      "Health Status": "Good (86%)",
+      "Current Transfer Mode": "SATA/600",
+      "Max Transfer Mode": "SATA/600",
+      "Standard": "ACS-3",
+      "Features": [ "S.M.A.R.T.", "48bit LBA", "APM", "NCQ", "DEVSLP", "GPL", "TRIM" ],
+      "Total Host Reads": "-",
+      "Total Host Writes": "48733 GB",
+      "Total NAND Writes": "-",
+      "Power On Count": 2654,
+      "Power On Time (Hours)": 5758,
+      "SMART Format": "Cur Wor Thr RawValues(6)",
+      "SMART 01": "100 100   0 000000000000 Raw Read Error Rate",
+      "SMART 05": "100 100  10 000000000000 Reallocated NAND Block Count",
+      "SMART 09": "100 100   0 00000000167E Power On Hours Count",
+      "SMART 0C": "100 100   0 000000000A5E Power Cycle Count",
+      "SMART AB": "100 100   0 000000000000 Program Fail Count",
+      "SMART AC": "100 100   0 000000000000 Erase Fail Count",
+      "SMART AD": " 86  86   0 0000000000DC Average Block Erase Count",
+      "SMART AE": "100 100   0 000000000028 Unexpected Power Loss Count",
+      "SMART B4": "  0   0   0 000000000030 Unused Spare NAND Blocks",
+      "SMART B7": "100 100   0 000000000000 SATA interface Downshift",
+      "SMART B8": "100 100   0 000000000000 Error Correction Count",
+      "SMART BB": "100 100   0 000000000000 Reported Uncorrectable Errors",
+      "SMART C2": " 60  35   0 004100000028 Temperature",
+      "SMART C4": "100 100   0 000000000000 Reallocation Event Count",
+      "SMART C5": "100 100   0 000000000000 Current Pending ECC Count",
+      "SMART C6": "100 100   0 000000000000 SMART Offline Scan Uncorrectable Error Count",
+      "SMART C7": "100 100   0 000000000003 UDMA CRC Error Count",
+      "SMART CA": " 86  86   1 00000000000E Lifetime Remaining",
+      "SMART CE": "100 100   0 000000000000 Write Error Rate",
+      "SMART D2": "100 100   0 000000000000 Successful RAIN Recovery Count",
+      "SMART F6": "100 100   0 0017CBB525CE Cumulative Host Sectors Written",
+      "SMART F7": "100 100   0 00007FFBAB03 Host Program NAND Pages Count",
+      "SMART F8": "100 100   0 0000A2C4D2D7 FTL Program NAND Pages Count",
+      "Volumes": [
+        {
+          "Path": "\\Device\\HarddiskVolume9",
+          "Volume GUID": "\\\\?\\Volume{95a2d257-cdf4-4367-bacb-2ea3e1c15aa0}",
+          "Starting LBA": 2048,
+          "Partition Number": 1,
+          "Partition Type": "{DE94BBA4-06D1-4D40-A16A-BFD50179D6AC}",
+          "Partition ID": "{95A2D257-CDF4-4367-BACB-2EA3E1C15AA0}",
+          "Partition Flag": "WINRE",
+          "Label": "修復",
+          "Filesystem": "NTFS",
+          "FS UUID": "e82a735e2a7328a8",
+          "Free Space": "89.48 MB",
+          "Total Space": "528.99 MB",
+          "Usage": "83.08%",
+          "Volume Path Names": []
+        },
+        {
+          "Path": "\\Device\\HarddiskVolume12",
+          "Volume GUID": "\\\\?\\Volume{cb1cd738-2661-4713-86c0-baa1122fa6bb}",
+          "Starting LBA": 1320960,
+          "Partition Number": 4,
+          "Partition Type": "{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}",
+          "Partition ID": "{CB1CD738-2661-4713-86C0-BAA1122FA6BB}",
+          "Partition Flag": "DATA",
+          "Filesystem": "NTFS",
+          "FS UUID": "10247d19247d0350",
+          "Free Space": "252.67 GB",
+          "Total Space": "929.88 GB",
+          "Usage": "72.83%",
+          "Volume Path Names": [
+            {
+              "Drive Letter": "C:\\"
+            }
+          ]
+        },
+        {
+          "Path": "\\Device\\HarddiskVolume13",
+          "Volume GUID": "\\\\?\\Volume{53d8cd4e-5164-452d-98f9-33ce22d22288}",
+          "Starting LBA": 1951424512,
+          "Partition Number": 5,
+          "Partition Type": "{DE94BBA4-06D1-4D40-A16A-BFD50179D6AC}",
+          "Partition ID": "{53D8CD4E-5164-452D-98F9-33CE22D22288}",
+          "Partition Flag": "WINRE",
+          "Filesystem": "NTFS",
+          "FS UUID": "926ac7fc6ac7db5d",
+          "Free Space": "383.69 MB",
+          "Total Space": "1023.99 MB",
+          "Usage": "62.53%",
+          "Volume Path Names": []
+        },
+        {
+          "Path": "\\Device\\HarddiskVolume10",
+          "Volume GUID": "\\\\?\\Volume{fa482d0b-dc6b-438f-a76a-25013c8860f4}",
+          "Starting LBA": 1085440,
+          "Partition Number": 2,
+          "Partition Type": "{C12A7328-F81F-11D2-BA4B-00A0C93EC93B}",
+          "Partition ID": "{FA482D0B-DC6B-438F-A76A-25013C8860F4}",
+          "Partition Flag": "ESP",
+          "Filesystem": "FAT32",
+          "FS UUID": "8273-7e58",
+          "Free Space": "68.09 MB",
+          "Total Space": "95.00 MB",
+          "Usage": "28.32%",
+          "Volume Path Names": []
+        }
+      ]
+    },
+    {
+      "Path": "\\\\.\\PhysicalDrive3",
+      "HWID": "SCSI\\DISK&VEN_APACER&PROD_AS350_2TB\\7&31E458EB&0&030000",
+      "HW Name": "Apacer AS350 2TB",
+      "Product ID": "Apacer AS350 2TB",
+      "Product Rev": "SN14546",
+      "Serial Number": "CN43AAJ4600242",
+      "Serial Number (Raw)": "CN43AAJ4600242",
+      "Type": "SATA",
+      "Removable": false,
+      "Size": "1.86 TB",
+      "Partition Table": "GPT",
+      "GPT GUID": "{AABD2BEC-C0E6-5942-BB53-4D7CB8DDBBF4}",
+      "SSD": true,
+      "Temperature (C)": 28,
+      "Health Status": "Good",
+      "Current Transfer Mode": "SATA/600",
+      "Max Transfer Mode": "SATA/600",
+      "Standard": "ACS-4",
+      "Features": [ "S.M.A.R.T.", "48bit LBA", "NCQ", "GPL", "TRIM" ],
+      "Total Host Reads": "677 GB",
+      "Total Host Writes": "1606 GB",
+      "Total NAND Writes": "-",
+      "Power On Count": 236,
+      "Power On Time (Hours)": 1592,
+      "SMART Format": "Cur Wor Thr RawValues(6)",
+      "SMART 05": "100 100  10 000000000000 Number of New Bad Block",
+      "SMART 09": "100 100   0 000000000638 Power On Hours",
+      "SMART 0C": "100 100   0 0000000000EC Power Cycle Count",
+      "SMART A4": "100 100   0 000500070006 Total Erase Count",
+      "SMART A5": "100 100   0 000000000007 Maximum Erase Count",
+      "SMART A6": "100 100   0 000000000005 Minimum Erase Count",
+      "SMART A7": "100 100   0 000000000006 Average Erase Count",
+      "SMART C2": " 28  28   0 00240018001C Temperature",
+      "SMART C7": "100 100   0 000000000000 SATA CRC Error Count",
+      "SMART F1": "100 100   0 000000000646 Total Written",
+      "SMART F2": "100 100   0 0000000002A5 Total Read",
+      "Volumes": [
+        {
+          "Path": "\\Device\\HarddiskVolume15",
+          "Volume GUID": "\\\\?\\Volume{5f947bcf-32dd-4a1e-8040-d7da23ad5637}",
+          "Starting LBA": 32768,
+          "Partition Number": 2,
+          "Partition Type": "{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}",
+          "Partition ID": "{5F947BCF-32DD-4A1E-8040-D7DA23AD5637}",
+          "Partition Flag": "DATA",
+          "Label": "New Volume",
+          "Filesystem": "NTFS",
+          "FS UUID": "6a6a826e6a8236bb",
+          "Free Space": "374.44 GB",
+          "Total Space": "1.86 TB",
+          "Usage": "80.37%",
+          "Volume Path Names": [
+            {
+              "Drive Letter": "O:\\"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "\\\\.\\PhysicalDrive4",
+      "HWID": "SCSI\\DISK&VEN_SPCC&PROD_SOLID_STATE_DISK\\7&1EEDC5B6&0&010000",
+      "HW Name": "SPCC Solid State Disk",
+      "Product ID": "SPCC Solid State Disk",
+      "Product Rev": "SHFM70.2",
+      "Serial Number": "51A907331D7D00105423",
+      "Serial Number (Raw)": "51A907331D7D00105423",
+      "Type": "SATA",
+      "Removable": false,
+      "Size": "1.86 TB",
+      "Partition Table": "GPT",
+      "GPT GUID": "{3FD9A26A-F02B-C348-98B2-C654AE0E195B}",
+      "SSD": true,
+      "Temperature (C)": 21,
+      "Health Status": "Good (100%)",
+      "Current Transfer Mode": "SATA/600",
+      "Max Transfer Mode": "SATA/600",
+      "Standard": "ACS-4",
+      "Features": [ "S.M.A.R.T.", "48bit LBA", "APM", "NCQ", "GPL", "TRIM" ],
+      "Total Host Reads": "-",
+      "Total Host Writes": "6076 GB",
+      "Total NAND Writes": "-",
+      "Power On Count": 857,
+      "Power On Time (Hours)": 5615,
+      "SMART Format": "Cur Wor Thr RawValues(6)",
+      "SMART 01": "100 100  50 000000000000 Read Error Rate",
+      "SMART 09": "100 100   0 0000000015EF Power on Hours",
+      "SMART 0C": "100 100   0 000000000359 Power Cycle Count",
+      "SMART A8": "100 100   0 000000000000 SATA PHY Error Count",
+      "SMART AA": "100 100  10 000000000191 Bad Block Count",
+      "SMART AD": "100 100   0 000000060015 Erase Count",
+      "SMART C0": "100 100   0 000000000005 Unexpected Power Loss Count",
+      "SMART C2": " 79  58   0 002A00080015 Temperature",
+      "SMART DA": "100 100  50 000000000000 Number of CRC Error",
+      "SMART E7": "100 100   0 000000000064 SSD Life Left",
+      "SMART F1": "100 100   0 0000000017BC Host Writes",
+      "Volumes": [
+        {
+          "Path": "\\Device\\HarddiskVolume17",
+          "Volume GUID": "\\\\?\\Volume{b27c0aea-448c-4e45-9ca2-690719c2f904}",
+          "Starting LBA": 32768,
+          "Partition Number": 2,
+          "Partition Type": "{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}",
+          "Partition ID": "{B27C0AEA-448C-4E45-9CA2-690719C2F904}",
+          "Partition Flag": "DATA",
+          "Label": "cheap_ssd_2TB",
+          "Filesystem": "NTFS",
+          "FS UUID": "fecec38acec339a3",
+          "Free Space": "222.48 GB",
+          "Total Space": "1.86 TB",
+          "Usage": "88.34%",
+          "Volume Path Names": [
+            {
+              "Drive Letter": "M:\\"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "\\\\.\\PhysicalDrive5",
+      "HWID": "SCSI\\DISK&VEN_NVME&PROD_CT1000P1SSD8\\5&2ECC52A&0&000000",
+      "HW Name": "CT1000P1SSD8",
+      "Product ID": "CT1000P1SSD8",
+      "Product Rev": "P3CR013",
+      "Serial Number": "1934E21B34C0",
+      "Serial Number (Raw)": "0000_0000_0000_0001_00A0_7519_E21B_34C0.",
+      "Type": "NVMe",
+      "Removable": false,
+      "Size": "931.51 GB",
+      "Partition Table": "GPT",
+      "GPT GUID": "{A46F7E8C-498A-5542-A9FD-7A415B9399DF}",
+      "SSD": true,
+      "Temperature (C)": 34,
+      "Health Status": "Good (98%)",
+      "Current Transfer Mode": "PCIe 3.0 x4",
+      "Max Transfer Mode": "PCIe 3.0 x4",
+      "Standard": "NVM Express 1.3",
+      "Features": [ "S.M.A.R.T.", "TRIM", "VolatileWriteCache" ],
+      "Total Host Reads": "15468 GB",
+      "Total Host Writes": "9040 GB",
+      "Power On Count": 2508,
+      "Power On Time (Hours)": 18396,
+      "SMART Format": "RawValues(7)",
+      "SMART 01": "00000000000000 Critical Warning",
+      "SMART 02": "00000000000133 Composite Temperature",
+      "SMART 03": "00000000000064 Available Spare",
+      "SMART 04": "0000000000000A Available Spare Threshold",
+      "SMART 05": "00000000000002 Percentage Used",
+      "SMART 06": "00000001EF006D Data Units Read",
+      "SMART 07": "00000001214C19 Data Units Written",
+      "SMART 08": "0000000C085A32 Host Read Commands",
+      "SMART 09": "00000006D3C006 Host Write Commands",
+      "SMART 0A": "00000000000D64 Controller Busy Time",
+      "SMART 0B": "000000000009CC Power Cycles",
+      "SMART 0C": "000000000047DC Power On Hours",
+      "SMART 0D": "0000000000001E Unsafe Shutdowns",
+      "SMART 0E": "00000000000000 Media and Data Integrity Errors",
+      "SMART 0F": "00000000000000 Number of Error Information Log Entries",
+      "SMART 10": "00000000000000 Warning Composite Temperature Time",
+      "SMART 11": "00000000000000 Critical Composite Temperature Time",
+      "SMART 12": "00000000000134 Temperature Sensor 1",
+      "SMART 13": "00000000000133 Temperature Sensor 2",
+      "SMART 16": "00000000000144 Temperature Sensor 5",
+      "SMART 1A": "00000000000031 Thermal Management Temperature 1 Transition Count",
+      "SMART 1B": "00000000000001 Thermal Management Temperature 2 Transition Count",
+      "SMART 1C": "000000000265A8 Total Time For Thermal Management Temperature 1",
+      "SMART 1D": "000000000000D4 Total Time For Thermal Management Temperature 2",
+      "Volumes": [
+        {
+          "Path": "\\Device\\HarddiskVolume2",
+          "Volume GUID": "\\\\?\\Volume{86015e3c-65a4-4941-9f5e-b107f0ac63d9}",
+          "Starting LBA": 32768,
+          "Partition Number": 2,
+          "Partition Type": "{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}",
+          "Partition ID": "{86015E3C-65A4-4941-9F5E-B107F0AC63D9}",
+          "Partition Flag": "DATA",
+          "Label": "SSD_M2",
+          "Filesystem": "NTFS",
+          "FS UUID": "c088de0788ddfbba",
+          "Free Space": "408.66 GB",
+          "Total Space": "931.49 GB",
+          "Usage": "56.13%",
+          "Volume Path Names": [
+            {
+              "Drive Letter": "F:\\"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "\\\\.\\PhysicalDrive6",
+      "HWID": "SCSI\\DISK&VEN_NVME&PROD_CT2000P5PSSD8\\7&12D6B47E&0&000000",
+      "HW Name": "CT2000P5PSSD8",
+      "Product ID": "CT2000P5PSSD8",
+      "Product Rev": "P7CR403",
+      "Serial Number": "22333A95DE15",
+      "Serial Number (Raw)": "0000_0000_0000_0001_00A0_7522_3A95_DE15.",
+      "Type": "NVMe",
+      "Removable": false,
+      "Size": "1.81 TB",
+      "Partition Table": "GPT",
+      "GPT GUID": "{1AE90EE4-506A-1947-9903-A40568DF9C1F}",
+      "SSD": true,
+      "Temperature (C)": 50,
+      "Health Status": "Good (99%)",
+      "Current Transfer Mode": "PCIe 4.0 x4",
+      "Max Transfer Mode": "PCIe 4.0 x4",
+      "Standard": "NVM Express 1.4",
+      "Features": [ "S.M.A.R.T.", "TRIM", "VolatileWriteCache" ],
+      "Total Host Reads": "9397 GB",
+      "Total Host Writes": "8492 GB",
+      "Power On Count": 1149,
+      "Power On Time (Hours)": 7706,
+      "SMART Format": "RawValues(7)",
+      "SMART 01": "00000000000000 Critical Warning",
+      "SMART 02": "00000000000141 Composite Temperature",
+      "SMART 03": "00000000000064 Available Spare",
+      "SMART 04": "00000000000005 Available Spare Threshold",
+      "SMART 05": "00000000000001 Percentage Used",
+      "SMART 06": "000000012CB79F Data Units Read",
+      "SMART 07": "000000010FC66A Data Units Written",
+      "SMART 08": "0000000BB5F866 Host Read Commands",
+      "SMART 09": "00000002D4B1E1 Host Write Commands",
+      "SMART 0A": "00000000000072 Controller Busy Time",
+      "SMART 0B": "0000000000047D Power Cycles",
+      "SMART 0C": "00000000001E1A Power On Hours",
+      "SMART 0D": "0000000000000E Unsafe Shutdowns",
+      "SMART 0E": "00000000000000 Media and Data Integrity Errors",
+      "SMART 0F": "00000000000000 Number of Error Information Log Entries",
+      "SMART 10": "00000000000000 Warning Composite Temperature Time",
+      "SMART 11": "00000000000000 Critical Composite Temperature Time",
+      "SMART 12": "00000000000141 Temperature Sensor 1",
+      "SMART 1A": "00000000000000 Thermal Management Temperature 1 Transition Count",
+      "SMART 1B": "00000000000000 Thermal Management Temperature 2 Transition Count",
+      "SMART 1C": "00000000000000 Total Time For Thermal Management Temperature 1",
+      "SMART 1D": "00000000000000 Total Time For Thermal Management Temperature 2",
+      "Volumes": [
+        {
+          "Path": "\\Device\\HarddiskVolume4",
+          "Volume GUID": "\\\\?\\Volume{31ff7872-d186-4adf-8f77-130af585a597}",
+          "Starting LBA": 32768,
+          "Partition Number": 2,
+          "Partition Type": "{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}",
+          "Partition ID": "{31FF7872-D186-4ADF-8F77-130AF585A597}",
+          "Partition Flag": "DATA",
+          "Label": "2tb_gen4",
+          "Filesystem": "NTFS",
+          "FS UUID": "8680c29a80c28fdb",
+          "Free Space": "462.25 GB",
+          "Total Space": "1.81 TB",
+          "Usage": "75.19%",
+          "Volume Path Names": [
+            {
+              "Drive Letter": "H:\\"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Path": "\\\\.\\PhysicalDrive7",
+      "HWID": "SCSI\\DISK&VEN_TUF&PROD_ESD-T1A\\9&1D7773ED&0&000000",
+      "HW Name": "TUF ESD-T1A SCSI Disk Device",
+      "Vendor ID": "TUF",
+      "Product ID": "ESD-T1A",
+      "Product Rev": "1.00",
+      "Serial Number": "0000000000000000",
+      "Serial Number (Raw)": "0000000000000000",
+      "Type": "USB",
+      "Removable": false,
+      "Size": "3.63 TB",
+      "Partition Table": "GPT",
+      "GPT GUID": "{A181C9FD-A822-CD41-8782-1841CD40D218}",
+      "SSD": true,
+      "Volumes": [
+        {
+          "Path": "\\Device\\HarddiskVolume19",
+          "Volume GUID": "\\\\?\\Volume{aabe383a-05a3-495e-9cbe-0565b6092ea9}",
+          "Starting LBA": 32768,
+          "Partition Number": 2,
+          "Partition Type": "{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}",
+          "Partition ID": "{AABE383A-05A3-495E-9CBE-0565B6092EA9}",
+          "Partition Flag": "DATA",
+          "Label": "ks_m2_4TB",
+          "Filesystem": "exFAT",
+          "FS UUID": "26df-62db",
+          "Free Space": "567.71 GB",
+          "Total Space": "3.63 TB",
+          "Usage": "84.76%",
+          "Volume Path Names": [
+            {
+              "Drive Letter": "I:\\"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Display": [
+    {
+      "HWID": "MONITOR\\ACI27C4",
+      "ID": "ACI27C4",
+      "Manufacturer": "Ancor Communications Inc",
+      "EDID Version": "1.4",
+      "Date": "2019, Week 4",
+      "Gamma": 2.20,
+      "Established Timings": [ "720x400@70Hz (VGA)", "640x480@60Hz (VGA)", "640x480@72Hz", "640x480@75Hz", "800x600@56Hz", "800x600@60Hz", "800x600@72Hz", "800x600@75Hz", "832x624@75Hz (Mac II)", "1024x768@60Hz", "1024x768@70Hz", "1024x768@75Hz", "1280x1024@75Hz", "1152x870@75Hz (Mac II)" ],
+      "Display Name": "VC279",
+      "Serial Number": "K1LMRS037962",
+      "Max Resolution": "1920x1080",
+      "Max Refresh Rate (Hz)": 60.00,
+      "Aspect Ratio": "16:9",
+      "Width (cm)": 60.0,
+      "Height (cm)": 34.0,
+      "Diagonal (in)": 27.15,
+      "EDID Extension Blocks": 0,
+      "Video Input": {
+        "Type": "Digital",
+        "Interface": "DisplayPort",
+        "Bits per Color": 8
+      },
+      "Supported Features": {
+        "DPMS Standby": true,
+        "DPMS Suspend": true,
+        "DPMS Active-Off": true,
+        "Digital Color Formats": "RGB 4:4:4",
+        "sRGB Standard": false,
+        "Preferred Timing Mode": "Includes native pixel format and refresh rate (DTD 1)",
+        "Continuous Timings (GTF/CVT)": false
+      },
+      "Chromaticity Coordinates": {
+        "Red": "(x=0.6533, y=0.3369)",
+        "Green": "(x=0.3203, y=0.6123)",
+        "Blue": "(x=0.1503, y=0.0683)",
+        "White": "(x=0.3134, y=0.3291)"
+      },
+      "Standard Timing Blocks": [
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "16:10",
+          "Resolution": "1280x800",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "4:3",
+          "Resolution": "1280x960",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "5:4",
+          "Resolution": "1280x1024",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "16:10",
+          "Resolution": "1440x900",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "16:10",
+          "Resolution": "1680x1050",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "16:9",
+          "Resolution": "1360x765",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "4:3",
+          "Resolution": "1600x1200",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Disabled"
+        }
+      ],
+      "Descriptor Blocks": [
+        {
+          "Type": "Detailed Timing Descriptor",
+          "Pixel Clock (kHz)": 148500,
+          "Resolution": "1920x1080",
+          "Refresh Rate (Hz)": 60.00,
+          "H Active": 1920,
+          "H Blank": 280,
+          "H Total": 2200,
+          "V Active": 1080,
+          "V Blank": 45,
+          "V Total": 1125,
+          "Image Size (mm)": "598x336",
+          "Signal": "Non-interlaced",
+          "Stereo Mode": "Normal display (No stereo)",
+          "Sync Type": "Digital Separate",
+          "V-Sync Polarity": "Positive",
+          "H-Sync Polarity": "Positive"
+        },
+        {
+          "Type": "Display Range Limits",
+          "Vertical Rate (Hz)": "50-76",
+          "Horizontal Rate (kHz)": "30-83",
+          "Max Pixel Clock (MHz)": 150
+        },
+        {
+          "Type": "Display Name",
+          "Text": "VC279"
+        },
+        {
+          "Type": "Serial Number",
+          "Text": "K1LMRS037962"
+        }
+      ]
+    },
+    {
+      "HWID": "MONITOR\\BNQ7FA6",
+      "ID": "BNQ7FA6",
+      "Manufacturer": "BNQ",
+      "EDID Version": "1.4",
+      "Date": "2022, Week 25",
+      "Gamma": 2.20,
+      "Established Timings": [ "720x400@70Hz (VGA)", "640x480@60Hz (VGA)", "640x480@75Hz", "800x600@60Hz", "800x600@75Hz", "832x624@75Hz (Mac II)", "1024x768@60Hz", "1024x768@75Hz", "1280x1024@75Hz", "1152x870@75Hz (Mac II)" ],
+      "Display Name": "BenQ EX3210U",
+      "Serial Number": "ETL6N04296SL0",
+      "Max Resolution": "3840x2160",
+      "Max Refresh Rate (Hz)": 60.00,
+      "Aspect Ratio": "16:9",
+      "Width (cm)": 71.0,
+      "Height (cm)": 40.0,
+      "Diagonal (in)": 32.08,
+      "EDID Extension Blocks": 2,
+      "Video Input": {
+        "Type": "Digital",
+        "Interface": "DisplayPort",
+        "Bits per Color": 10
+      },
+      "Supported Features": {
+        "DPMS Standby": false,
+        "DPMS Suspend": false,
+        "DPMS Active-Off": true,
+        "Digital Color Formats": "RGB 4:4:4 + YCrCb 4:4:4 + YCrCb 4:2:2",
+        "sRGB Standard": false,
+        "Preferred Timing Mode": "Includes native pixel format and refresh rate (DTD 1)",
+        "Continuous Timings (GTF/CVT)": true
+      },
+      "Chromaticity Coordinates": {
+        "Red": "(x=0.6884, y=0.3076)",
+        "Green": "(x=0.1806, y=0.7353)",
+        "Blue": "(x=0.1494, y=0.0566)",
+        "White": "(x=0.3134, y=0.3291)"
+      },
+      "Standard Timing Blocks": [
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "16:9",
+          "Resolution": "1920x1080",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "16:9",
+          "Resolution": "1280x720",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "16:10",
+          "Resolution": "1280x800",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "5:4",
+          "Resolution": "1280x1024",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "16:9",
+          "Resolution": "1600x900",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "16:10",
+          "Resolution": "1680x1050",
+          "Refresh Rate (Hz)": 60
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "5:4",
+          "Resolution": "1280x1024",
+          "Refresh Rate (Hz)": 120
+        },
+        {
+          "Status": "Enabled",
+          "Aspect Ratio": "4:3",
+          "Resolution": "1024x768",
+          "Refresh Rate (Hz)": 120
+        }
+      ],
+      "Descriptor Blocks": [
+        {
+          "Type": "Detailed Timing Descriptor",
+          "Pixel Clock (kHz)": 533250,
+          "Resolution": "3840x2160",
+          "Refresh Rate (Hz)": 60.00,
+          "H Active": 3840,
+          "H Blank": 160,
+          "H Total": 4000,
+          "V Active": 2160,
+          "V Blank": 62,
+          "V Total": 2222,
+          "Image Size (mm)": "708x399",
+          "Signal": "Non-interlaced",
+          "Stereo Mode": "Normal display (No stereo)",
+          "Sync Type": "Digital Separate",
+          "V-Sync Polarity": "Negative",
+          "H-Sync Polarity": "Positive"
+        },
+        {
+          "Type": "Serial Number",
+          "Text": "ETL6N04296SL0"
+        },
+        {
+          "Type": "Display Range Limits",
+          "Vertical Rate (Hz)": "48-144",
+          "Horizontal Rate (kHz)": "71-71",
+          "Max Pixel Clock (MHz)": 1310
+        },
+        {
+          "Type": "Display Name",
+          "Text": "BenQ EX3210U"
+        }
+      ]
+    },
+    {
+      "Device": "\\\\.\\DISPLAY1",
+      "Name": "NVIDIA GeForce RTX 3080",
+      "Primary": true,
+      "Removable": false,
+      "Remote": false,
+      "Current Mode": "3840x2160@120Hz",
+      "Modes": {
+        "640x480": 144,
+        "720x480": 144,
+        "720x576": 144,
+        "800x600": 144,
+        "1024x768": 144,
+        "1152x864": 144,
+        "1176x664": 144,
+        "1280x720": 144,
+        "1280x768": 144,
+        "1280x800": 144,
+        "1280x960": 144,
+        "1280x1024": 144,
+        "1360x768": 144,
+        "1366x768": 144,
+        "1440x1080": 144,
+        "1600x900": 144,
+        "1600x1024": 144,
+        "1600x1200": 144,
+        "1680x1050": 144,
+        "1920x1080": 144,
+        "1920x1200": 144,
+        "1920x1440": 144,
+        "2048x1536": 144,
+        "2560x1440": 144,
+        "2560x1600": 144,
+        "1440x900": 144,
+        "1360x765": 144,
+        "3840x2160": 144,
+        "2880x1600": 144
+      }
+    },
+    {
+      "Device": "\\\\.\\DISPLAY2",
+      "Name": "NVIDIA GeForce RTX 3080",
+      "Primary": false,
+      "Removable": false,
+      "Remote": false,
+      "Current Mode": "1920x1080@60Hz",
+      "Modes": {
+        "1920x1080": 60,
+        "640x480": 75,
+        "720x480": 75,
+        "720x576": 75,
+        "800x600": 75,
+        "1024x768": 75,
+        "1152x864": 60,
+        "1280x720": 60,
+        "1280x768": 60,
+        "1280x800": 60,
+        "1280x960": 60,
+        "1280x1024": 75,
+        "1360x768": 60,
+        "1366x768": 60,
+        "1440x1080": 60,
+        "1600x900": 60,
+        "1600x1024": 60,
+        "1600x1200": 60,
+        "1680x1050": 60,
+        "1440x900": 60,
+        "1360x765": 60
+      }
+    }
+  ],
+  "Network": [
+    {
+      "Network Adapter": "{F02C5F76-DB24-4F91-BDC6-A89DF0A33026}",
+      "Description": "Realtek Gaming GbE Family Controller",
+      "Type": "Ethernet",
+      "MAC Address": "04-D9-F5-07-41-C0",
+      "Status": "Active",
+      "DHCP Enabled": false,
+      "Transmit Link Speed": "1.00 Gbps",
+      "Receive Link Speed": "1.00 Gbps",
+      "MTU (Byte)": 1492,
+      "Received (Octets)": 2467631630,
+      "Sent (Octets)": 207153652,
+      "Unicasts": [
+        {
+          "IPv6": "2001:b011:400b:d43e:8ad9:f4b2:5e27:660f"
+        },
+        {
+          "IPv6": "2001:b011:400b:d43e:3143:9bb:4e4e:21cc"
+        },
+        {
+          "IPv6": "fe80::54c8:940b:9f55:4245"
+        },
+        {
+          "IPv4": "192.168.1.195",
+          "Subnet Mask": "255.255.255.0"
+        }
+      ],
+      "Multicasts": [
+        {
+          "IPv6": "ff01::1"
+        },
+        {
+          "IPv6": "ff02::1"
+        },
+        {
+          "IPv6": "ff02::c"
+        },
+        {
+          "IPv6": "ff02::fb"
+        },
+        {
+          "IPv6": "ff02::1:3"
+        },
+        {
+          "IPv6": "ff02::1:ff27:660f"
+        },
+        {
+          "IPv6": "ff02::1:ff4e:21cc"
+        },
+        {
+          "IPv6": "ff02::1:ff55:4245"
+        },
+        {
+          "IPv4": "224.0.0.1"
+        },
+        {
+          "IPv4": "224.0.0.251"
+        },
+        {
+          "IPv4": "224.0.0.252"
+        },
+        {
+          "IPv4": "239.255.255.250"
+        }
+      ],
+      "Gateways": [
+        {
+          "IPv6": "fe80::2eea:dcff:fec0:ec60"
+        },
+        {
+          "IPv4": "192.168.1.1"
+        }
+      ],
+      "DNS Servers": [
+        {
+          "IPv6": "2001:b000:168::2"
+        },
+        {
+          "IPv6": "2001:b000:168::1"
+        },
+        {
+          "IPv4": "8.8.8.8"
+        },
+        {
+          "IPv4": "8.8.4.4"
+        },
+        {
+          "IPv6": "2001:b000:168::2"
+        },
+        {
+          "IPv6": "2001:b000:168::1"
+        }
+      ]
+    },
+    {
+      "Network Adapter": "{2A1AD9C0-2C0F-47E9-B3A2-379056FC7F02}",
+      "Description": "Solvfx_Office",
+      "Type": "PPP",
+      "Status": "Active",
+      "DHCP Enabled": false,
+      "Transmit Link Speed": "1.00 Gbps",
+      "Receive Link Speed": "1.00 Gbps",
+      "MTU (Byte)": 1400,
+      "Received (Octets)": 912337334,
+      "Sent (Octets)": 40978490,
+      "Unicasts": [
+        {
+          "IPv4": "192.168.50.1",
+          "Subnet Mask": "255.255.255.255"
+        }
+      ],
+      "Multicasts": [
+        {
+          "IPv4": "224.0.0.1"
+        },
+        {
+          "IPv4": "224.0.0.251"
+        },
+        {
+          "IPv4": "224.0.0.252"
+        },
+        {
+          "IPv4": "239.255.255.250"
+        }
+      ],
+      "Gateways": [
+        {
+          "IPv4": "0.0.0.0"
+        }
+      ],
+      "DNS Servers": [
+        {
+          "IPv4": "10.10.10.252"
+        }
+      ]
+    },
+    {
+      "Network Adapter": "{1972600B-B846-11E9-8F3A-806E6F6E6963}",
+      "Description": "Software Loopback Interface 1",
+      "Type": "Software Loopback",
+      "Status": "Active",
+      "DHCP Enabled": false,
+      "Transmit Link Speed": "1.07 Gbps",
+      "Receive Link Speed": "1.07 Gbps",
+      "MTU (Byte)": 4294967295,
+      "Received (Octets)": 0,
+      "Sent (Octets)": 0,
+      "Unicasts": [
+        {
+          "IPv6": "::1"
+        },
+        {
+          "IPv4": "127.0.0.1",
+          "Subnet Mask": "255.0.0.0"
+        }
+      ],
+      "Multicasts": [
+        {
+          "IPv6": "ff02::c"
+        },
+        {
+          "IPv4": "239.255.255.250"
+        }
+      ],
+      "DNS Servers": [
+        {
+          "IPv6": "fec0:0:0:ffff::1"
+        },
+        {
+          "IPv6": "fec0:0:0:ffff::2"
+        },
+        {
+          "IPv6": "fec0:0:0:ffff::3"
+        }
+      ]
+    },
+    {
+      "Network Adapter": "{51620663-8F90-4E85-A4BE-3CB24F9F1419}",
+      "Description": "TAP-Windows Adapter V9",
+      "Type": "Other",
+      "MAC Address": "00-FF-51-62-06-63",
+      "Status": "Deactive",
+      "DHCP Enabled": true,
+      "Transmit Link Speed": "1.00 Gbps",
+      "Receive Link Speed": "1.00 Gbps",
+      "MTU (Byte)": 1400,
+      "Received (Octets)": 0,
+      "Sent (Octets)": 0,
+      "Unicasts": [
+        {
+          "IPv4": "169.254.20.152",
+          "Subnet Mask": "255.255.0.0"
+        }
+      ],
+      "Multicasts": [
+        {
+          "IPv4": "224.0.0.1"
+        }
+      ]
+    },
+    {
+      "Network Adapter": "{B69812F4-DB66-4757-86B6-7F56156ED897}",
+      "Description": "VMware Virtual Ethernet Adapter for VMnet1",
+      "Type": "Ethernet",
+      "MAC Address": "00-50-56-C0-00-01",
+      "Status": "Active",
+      "DHCP Enabled": false,
+      "Transmit Link Speed": "100.00 Mbps",
+      "Receive Link Speed": "100.00 Mbps",
+      "MTU (Byte)": 1500,
+      "Received (Octets)": 0,
+      "Sent (Octets)": 1150,
+      "Unicasts": [
+        {
+          "IPv4": "192.168.204.1",
+          "Subnet Mask": "255.255.255.0"
+        }
+      ],
+      "Multicasts": [
+        {
+          "IPv4": "224.0.0.1"
+        },
+        {
+          "IPv4": "224.0.0.251"
+        },
+        {
+          "IPv4": "224.0.0.252"
+        },
+        {
+          "IPv4": "239.255.255.250"
+        }
+      ]
+    },
+    {
+      "Network Adapter": "{FBF807AA-965E-4221-8DFB-E6E5E1D455DB}",
+      "Description": "VMware Virtual Ethernet Adapter for VMnet8",
+      "Type": "Ethernet",
+      "MAC Address": "00-50-56-C0-00-08",
+      "Status": "Active",
+      "DHCP Enabled": false,
+      "Transmit Link Speed": "100.00 Mbps",
+      "Receive Link Speed": "100.00 Mbps",
+      "MTU (Byte)": 1500,
+      "Received (Octets)": 0,
+      "Sent (Octets)": 1149,
+      "Unicasts": [
+        {
+          "IPv4": "192.168.74.1",
+          "Subnet Mask": "255.255.255.0"
+        }
+      ],
+      "Multicasts": [
+        {
+          "IPv4": "224.0.0.1"
+        },
+        {
+          "IPv4": "224.0.0.251"
+        },
+        {
+          "IPv4": "224.0.0.252"
+        },
+        {
+          "IPv4": "239.255.255.250"
+        }
+      ]
+    },
+    {
+      "Network Adapter": "{C32B9DF1-3A5A-418C-9382-79DC1E55890F}",
+      "Description": "Bluetooth Device (Personal Area Network) #5",
+      "Type": "Ethernet",
+      "MAC Address": "D4-D2-52-9B-51-6C",
+      "Status": "Deactive",
+      "DHCP Enabled": true,
+      "Transmit Link Speed": "3.00 Mbps",
+      "Receive Link Speed": "3.00 Mbps",
+      "MTU (Byte)": 1500,
+      "Received (Octets)": 0,
+      "Sent (Octets)": 0,
+      "Unicasts": [
+        {
+          "IPv4": "169.254.192.109",
+          "Subnet Mask": "255.255.0.0"
+        }
+      ],
+      "Multicasts": [
+        {
+          "IPv4": "224.0.0.1"
+        }
+      ]
+    }
+  ],
+  "SMBIOS": [
+    {
+      "SMBIOS Version": "3.3",
+      "DMI Reversion": 0,
+      "SMBIOS Length": 3105
+    },
+    {
+      "Table Type": 2,
+      "Table Length": 15,
+      "Table Handle": 2,
+      "Description": "Base Board Information",
+      "Manufacturer": "ASUSTeK COMPUTER INC.",
+      "Product Name": "TUF GAMING X570-PLUS (WI-FI)",
+      "Version": "Rev X.0x",
+      "Serial Number": "190754488101636",
+      "Asset Tag": "Default string",
+      "Feature Flags": "0x09",
+      "Location in Chassis": "Default string",
+      "Chassis Handle": 3,
+      "Board Type": "Motherboard"
+    }
+  ],
+  "System": {
+    "OS": "Windows 10 22H2",
+    "Build Number": "10.0.19045",
+    "UBR": 5965,
+    "Edition": "Enterprise",
+    "Install Date": "1970-01-01 00:00:00 (UTC)",
+    "Computer Name": "MIJOEX2019",
+    "Username": "Administrator",
+    "DNS Hostname": "MijoEX2019",
+    "System Directory": "C:\\WINDOWS\\system32",
+    "Windows Directory": "C:\\WINDOWS",
+    "UAC": true,
+    "Fast Startup": true,
+    "Virtualization-based Security": false,
+    "Vulnerable Driver Blocklist": false,
+    "Uptime": "1h 53m 29s",
+    "Processor Architecture": "x64",
+    "Computer Hardware Id": "{2e01cefa-0ca9-537c-86f3-275db6e5b9b4}",
+    "Safe Mode": false,
+    "DBCS Enabled": true,
+    "Debug Version": false,
+    "Slow Processor": false,
+    "Network Presence": true,
+    "Boot Device": "\\Device\\HarddiskVolume10",
+    "System Device": "\\Device\\HarddiskVolume12",
+    "Start Options": " NOEXECUTE=OPTIN  HYPERVISORLAUNCHTYPE=AUTO  NOVGA",
+    "BitLocker Boot": false,
+    "Firmware": "UEFI",
+    "TPM": "v2.0",
+    "Page Size": 4096,
+    "Memory Usage": "61%",
+    "Paging File Usage": "7%",
+    "Physical Memory": {
+      "Free": "12.27 GB",
+      "Total": "31.90 GB"
+    },
+    "Paging File": {
+      "Free": "12.08 GB",
+      "Total": "13.00 GB"
+    }
+  },
+  "USB": [
+    {
+      "HWID": "USB\\ROOT_HUB30&VID1B21&PID3242&REV0000",
+      "Vendor ID": "1B21",
+      "Device ID": "3242",
+      "Name": "USB Root Hub (USB 3.0)"
+    },
+    {
+      "HWID": "USB\\ROOT_HUB30&VID1022&PID149C&REV0000",
+      "Vendor ID": "1022",
+      "Device ID": "149C",
+      "Vendor": "Shinko Shoji Co., Ltd",
+      "Name": "USB Root Hub (USB 3.0)",
+      "USB Hub": [
+        {
+          "HWID": "USB\\VID_05E3&PID_0626&REV_0655",
+          "Vendor ID": "05E3",
+          "Device ID": "0626",
+          "Vendor": "Genesys Logic, Inc.",
+          "Device": "Hub",
+          "Name": "Generic SuperSpeed USB Hub",
+          "USB Hub": [
+            {
+              "HWID": "USB\\VID_1532&PID_0E05&REV_0821",
+              "Vendor ID": "1532",
+              "Device ID": "0E05",
+              "Vendor": "Razer USA, Ltd",
+              "Name": "USB Composite Device",
+              "USB Hub": [
+                {
+                  "HWID": "USB\\VID_1532&PID_0E05&REV_0821&MI_00",
+                  "Vendor ID": "1532",
+                  "Device ID": "0E05",
+                  "Vendor": "Razer USA, Ltd",
+                  "Compatible ID": "USB\\Class_0e&SubClass_03&Prot_00",
+                  "Class Code": "0e0300",
+                  "Class": "Video",
+                  "Subclass": "Video Interface Collection",
+                  "Name": "Razer Kiyo Pro"
+                },
+                {
+                  "HWID": "USB\\VID_1532&PID_0E05&REV_0821&MI_02",
+                  "Vendor ID": "1532",
+                  "Device ID": "0E05",
+                  "Vendor": "Razer USA, Ltd",
+                  "Compatible ID": "USB\\Class_01&SubClass_02&Prot_00",
+                  "Class Code": "010200",
+                  "Class": "Audio",
+                  "Subclass": "Streaming",
+                  "Name": "Razer Kiyo Pro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "HWID": "USB\\VID_05E3&PID_0610&REV_0655",
+          "Vendor ID": "05E3",
+          "Device ID": "0610",
+          "Vendor": "Genesys Logic, Inc.",
+          "Device": "Hub",
+          "Name": "Generic USB Hub"
+        },
+        {
+          "HWID": "USB\\VID_2109&PID_2813&REV_0221",
+          "Vendor ID": "2109",
+          "Device ID": "2813",
+          "Vendor": "VIA Labs, Inc.",
+          "Device": "VL813 Hub",
+          "Name": "Generic USB Hub",
+          "USB Hub": [
+            {
+              "HWID": "USB\\VID_05E3&PID_0610&REV_7332",
+              "Vendor ID": "05E3",
+              "Device ID": "0610",
+              "Vendor": "Genesys Logic, Inc.",
+              "Device": "Hub",
+              "Name": "Generic USB Hub",
+              "USB Hub": [
+                {
+                  "HWID": "USB\\VID_05E3&PID_0610&REV_7342",
+                  "Vendor ID": "05E3",
+                  "Device ID": "0610",
+                  "Vendor": "Genesys Logic, Inc.",
+                  "Device": "Hub",
+                  "Name": "Generic USB Hub",
+                  "USB Hub": [
+                    {
+                      "HWID": "USB\\VID_047D&PID_80D6&REV_1333",
+                      "Vendor ID": "047D",
+                      "Device ID": "80D6",
+                      "Vendor": "Kensington",
+                      "Name": "USB Composite Device",
+                      "USB Hub": [
+                        {
+                          "HWID": "USB\\VID_047D&PID_80D6&REV_1333&MI_00",
+                          "Vendor ID": "047D",
+                          "Device ID": "80D6",
+                          "Vendor": "Kensington",
+                          "Compatible ID": "USB\\Class_03&SubClass_01&Prot_02",
+                          "Class Code": "030102",
+                          "Class": "Human Interface Device",
+                          "Subclass": "Boot Interface Subclass",
+                          "Protocol": "Mouse",
+                          "Name": "USB Input Device"
+                        },
+                        {
+                          "HWID": "USB\\VID_047D&PID_80D6&REV_1333&MI_01",
+                          "Vendor ID": "047D",
+                          "Device ID": "80D6",
+                          "Vendor": "Kensington",
+                          "Compatible ID": "USB\\Class_03&SubClass_01&Prot_01",
+                          "Class Code": "030101",
+                          "Class": "Human Interface Device",
+                          "Subclass": "Boot Interface Subclass",
+                          "Protocol": "Keyboard",
+                          "Name": "USB Input Device"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "HWID": "USB\\VID_1532&PID_00B2&REV_0101",
+                  "Vendor ID": "1532",
+                  "Device ID": "00B2",
+                  "Vendor": "Razer USA, Ltd",
+                  "Name": "USB Composite Device",
+                  "USB Hub": [
+                    {
+                      "HWID": "USB\\VID_1532&PID_00B2&REV_0101&MI_00",
+                      "Vendor ID": "1532",
+                      "Device ID": "00B2",
+                      "Vendor": "Razer USA, Ltd",
+                      "Compatible ID": "USB\\Class_03&SubClass_01&Prot_02",
+                      "Class Code": "030102",
+                      "Class": "Human Interface Device",
+                      "Subclass": "Boot Interface Subclass",
+                      "Protocol": "Mouse",
+                      "Name": "USB Input Device"
+                    },
+                    {
+                      "HWID": "USB\\VID_1532&PID_00B2&REV_0101&MI_01",
+                      "Vendor ID": "1532",
+                      "Device ID": "00B2",
+                      "Vendor": "Razer USA, Ltd",
+                      "Compatible ID": "USB\\Class_03&SubClass_00&Prot_01",
+                      "Class Code": "030001",
+                      "Class": "Human Interface Device",
+                      "Subclass": "No Subclass",
+                      "Protocol": "Keyboard",
+                      "Name": "Razer DeathAdder V3"
+                    },
+                    {
+                      "HWID": "USB\\VID_1532&PID_00B2&REV_0101&MI_02",
+                      "Vendor ID": "1532",
+                      "Device ID": "00B2",
+                      "Vendor": "Razer USA, Ltd",
+                      "Compatible ID": "USB\\Class_03&SubClass_01&Prot_01",
+                      "Class Code": "030101",
+                      "Class": "Human Interface Device",
+                      "Subclass": "Boot Interface Subclass",
+                      "Protocol": "Keyboard",
+                      "Name": "Razer DeathAdder V3"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "HWID": "USB\\VID_056E&PID_013B&REV_0104",
+              "Vendor ID": "056E",
+              "Device ID": "013B",
+              "Vendor": "Elecom Co., Ltd",
+              "Compatible ID": "USB\\Class_03&SubClass_01&Prot_02",
+              "Class Code": "030102",
+              "Class": "Human Interface Device",
+              "Subclass": "Boot Interface Subclass",
+              "Protocol": "Mouse",
+              "Name": "USB Input Device"
+            },
+            {
+              "HWID": "USB\\VID_0C45&PID_7811&REV_0206",
+              "Vendor ID": "0C45",
+              "Device ID": "7811",
+              "Vendor": "Microdia",
+              "Name": "USB Composite Device",
+              "USB Hub": [
+                {
+                  "HWID": "USB\\VID_0C45&PID_7811&REV_0206&MI_00",
+                  "Vendor ID": "0C45",
+                  "Device ID": "7811",
+                  "Vendor": "Microdia",
+                  "Compatible ID": "USB\\Class_03&SubClass_01&Prot_01",
+                  "Class Code": "030101",
+                  "Class": "Human Interface Device",
+                  "Subclass": "Boot Interface Subclass",
+                  "Protocol": "Keyboard",
+                  "Name": "USB Input Device"
+                },
+                {
+                  "HWID": "USB\\VID_0C45&PID_7811&REV_0206&MI_01",
+                  "Vendor ID": "0C45",
+                  "Device ID": "7811",
+                  "Vendor": "Microdia",
+                  "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+                  "Class Code": "030000",
+                  "Class": "Human Interface Device",
+                  "Subclass": "No Subclass",
+                  "Protocol": "None",
+                  "Name": "USB Input Device"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "HWID": "USB\\ROOT_HUB30&VID1022&PID149C&REV0000",
+      "Vendor ID": "1022",
+      "Device ID": "149C",
+      "Vendor": "Shinko Shoji Co., Ltd",
+      "Name": "USB Root Hub (USB 3.0)",
+      "USB Hub": [
+        {
+          "HWID": "USB\\VID_0B05&PID_1A8A&REV_F001",
+          "Vendor ID": "0B05",
+          "Device ID": "1A8A",
+          "Vendor": "ASUSTek Computer, Inc.",
+          "Compatible ID": "USB\\Class_08&SubClass_06&Prot_62",
+          "Class Code": "080662",
+          "Class": "Mass Storage",
+          "Subclass": "SCSI",
+          "Name": "USB Attached SCSI (UAS) Mass Storage Device",
+          "Disk": "TUF ESD-T1A SCSI Disk Device"
+        },
+        {
+          "HWID": "USB\\VID_8087&PID_0025&REV_0002",
+          "Vendor ID": "8087",
+          "Device ID": "0025",
+          "Vendor": "Intel Corp.",
+          "Device": "Wireless-AC 9260 Bluetooth Adapter",
+          "Compatible ID": "USB\\Class_E0&SubClass_01&Prot_01",
+          "Class Code": "E00101",
+          "Class": "Wireless",
+          "Subclass": "Radio Frequency",
+          "Protocol": "Bluetooth",
+          "Name": "Intel(R) Wireless Bluetooth(R)"
+        },
+        {
+          "HWID": "USB\\VID_0B05&PID_18F3&REV_0100",
+          "Vendor ID": "0B05",
+          "Device ID": "18F3",
+          "Vendor": "ASUSTek Computer, Inc.",
+          "Name": "USB Composite Device",
+          "USB Hub": [
+            {
+              "HWID": "USB\\VID_0B05&PID_18F3&REV_0100&MI_00",
+              "Vendor ID": "0B05",
+              "Device ID": "18F3",
+              "Vendor": "ASUSTek Computer, Inc.",
+              "Compatible ID": "USB\\Class_ff&SubClass_ff&Prot_ff",
+              "Class Code": "ffffff",
+              "Class": "Vendor Specific Class",
+              "Subclass": "Vendor Specific Subclass",
+              "Protocol": "Vendor Specific Protocol",
+              "Name": "AURA LED Controller"
+            },
+            {
+              "HWID": "USB\\VID_0B05&PID_18F3&REV_0100&MI_02",
+              "Vendor ID": "0B05",
+              "Device ID": "18F3",
+              "Vendor": "ASUSTek Computer, Inc.",
+              "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+              "Class Code": "030000",
+              "Class": "Human Interface Device",
+              "Subclass": "No Subclass",
+              "Protocol": "None",
+              "Name": "USB Input Device"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "HWID": "USB\\ROOT_HUB30&VID1022&PID149C&REV0000",
+      "Vendor ID": "1022",
+      "Device ID": "149C",
+      "Vendor": "Shinko Shoji Co., Ltd",
+      "Name": "USB Root Hub (USB 3.0)",
+      "USB Hub": [
+        {
+          "HWID": "USB\\VID_0BB4&PID_0343&REV_6701",
+          "Vendor ID": "0BB4",
+          "Device ID": "0343",
+          "Vendor": "HTC (High Tech Computer Corp.)",
+          "Name": "Generic SuperSpeed USB Hub",
+          "USB Hub": [
+            {
+              "HWID": "USB\\VID_0BB4&PID_030A&REV_63D1",
+              "Vendor ID": "0BB4",
+              "Device ID": "030A",
+              "Vendor": "HTC (High Tech Computer Corp.)",
+              "Name": "Generic SuperSpeed USB Hub",
+              "USB Hub": [
+                {
+                  "HWID": "USB\\VID_0BB4&PID_030C&REV_0435",
+                  "Vendor ID": "0BB4",
+                  "Device ID": "030C",
+                  "Vendor": "HTC (High Tech Computer Corp.)",
+                  "Name": "USB Composite Device",
+                  "USB Hub": [
+                    {
+                      "HWID": "USB\\VID_0BB4&PID_030C&REV_0435&MI_00",
+                      "Vendor ID": "0BB4",
+                      "Device ID": "030C",
+                      "Vendor": "HTC (High Tech Computer Corp.)",
+                      "Compatible ID": "USB\\Class_0e&SubClass_03&Prot_00",
+                      "Class Code": "0e0300",
+                      "Class": "Video",
+                      "Subclass": "Video Interface Collection",
+                      "Name": "VIVE Pro Multimedia Camera"
+                    }
+                  ]
+                },
+                {
+                  "HWID": "USB\\VID_0BB4&PID_030A&REV_66B1",
+                  "Vendor ID": "0BB4",
+                  "Device ID": "030A",
+                  "Vendor": "HTC (High Tech Computer Corp.)",
+                  "Name": "Generic SuperSpeed USB Hub"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "HWID": "USB\\VID_21B4&PID_0085&REV_0110",
+          "Vendor ID": "21B4",
+          "Device ID": "0085",
+          "Vendor": "AudioQuest",
+          "Name": "USB Composite Device",
+          "USB Hub": [
+            {
+              "HWID": "USB\\VID_21B4&PID_0085&REV_0110&MI_00",
+              "Vendor ID": "21B4",
+              "Device ID": "0085",
+              "Vendor": "AudioQuest",
+              "Compatible ID": "USB\\Class_01&SubClass_01&Prot_00",
+              "Class Code": "010100",
+              "Class": "Audio",
+              "Subclass": "Control Device",
+              "Name": "AudioQuest DragonFly Cobalt v1.0"
+            },
+            {
+              "HWID": "USB\\VID_21B4&PID_0085&REV_0110&MI_02",
+              "Vendor ID": "21B4",
+              "Device ID": "0085",
+              "Vendor": "AudioQuest",
+              "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+              "Class Code": "030000",
+              "Class": "Human Interface Device",
+              "Subclass": "No Subclass",
+              "Protocol": "None",
+              "Name": "USB Input Device"
+            }
+          ]
+        },
+        {
+          "HWID": "USB\\VID_0BB4&PID_0343&REV_6701",
+          "Vendor ID": "0BB4",
+          "Device ID": "0343",
+          "Vendor": "HTC (High Tech Computer Corp.)",
+          "Name": "Generic USB Hub",
+          "USB Hub": [
+            {
+              "HWID": "USB\\VID_0BB4&PID_030A&REV_63D1",
+              "Vendor ID": "0BB4",
+              "Device ID": "030A",
+              "Vendor": "HTC (High Tech Computer Corp.)",
+              "Name": "Generic USB Hub",
+              "USB Hub": [
+                {
+                  "HWID": "USB\\VID_28DE&PID_2300&REV_0200",
+                  "Vendor ID": "28DE",
+                  "Device ID": "2300",
+                  "Vendor": "Valve Software",
+                  "Name": "USB Composite Device",
+                  "USB Hub": [
+                    {
+                      "HWID": "USB\\VID_28DE&PID_2300&REV_0200&MI_00",
+                      "Vendor ID": "28DE",
+                      "Device ID": "2300",
+                      "Vendor": "Valve Software",
+                      "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+                      "Class Code": "030000",
+                      "Class": "Human Interface Device",
+                      "Subclass": "No Subclass",
+                      "Protocol": "None",
+                      "Name": "USB Input Device"
+                    },
+                    {
+                      "HWID": "USB\\VID_28DE&PID_2300&REV_0200&MI_01",
+                      "Vendor ID": "28DE",
+                      "Device ID": "2300",
+                      "Vendor": "Valve Software",
+                      "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+                      "Class Code": "030000",
+                      "Class": "Human Interface Device",
+                      "Subclass": "No Subclass",
+                      "Protocol": "None",
+                      "Name": "USB Input Device"
+                    },
+                    {
+                      "HWID": "USB\\VID_28DE&PID_2300&REV_0200&MI_02",
+                      "Vendor ID": "28DE",
+                      "Device ID": "2300",
+                      "Vendor": "Valve Software",
+                      "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+                      "Class Code": "030000",
+                      "Class": "Human Interface Device",
+                      "Subclass": "No Subclass",
+                      "Protocol": "None",
+                      "Name": "USB Input Device"
+                    }
+                  ]
+                },
+                {
+                  "HWID": "USB\\VID_0BB4&PID_030A&REV_66B0",
+                  "Vendor ID": "0BB4",
+                  "Device ID": "030A",
+                  "Vendor": "HTC (High Tech Computer Corp.)",
+                  "Name": "Generic USB Hub",
+                  "USB Hub": [
+                    {
+                      "HWID": "USB\\VID_0BB4&PID_0309&REV_0200",
+                      "Vendor ID": "0BB4",
+                      "Device ID": "0309",
+                      "Vendor": "HTC (High Tech Computer Corp.)",
+                      "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+                      "Class Code": "030000",
+                      "Class": "Human Interface Device",
+                      "Subclass": "No Subclass",
+                      "Protocol": "None",
+                      "Name": "USB Input Device"
+                    },
+                    {
+                      "HWID": "USB\\VID_0BB4&PID_030B&REV_0120",
+                      "Vendor ID": "0BB4",
+                      "Device ID": "030B",
+                      "Vendor": "HTC (High Tech Computer Corp.)",
+                      "Name": "USB Composite Device",
+                      "USB Hub": [
+                        {
+                          "HWID": "USB\\VID_0BB4&PID_030B&REV_0120&MI_00",
+                          "Vendor ID": "0BB4",
+                          "Device ID": "030B",
+                          "Vendor": "HTC (High Tech Computer Corp.)",
+                          "Compatible ID": "USB\\Class_01&SubClass_01&Prot_00",
+                          "Class Code": "010100",
+                          "Class": "Audio",
+                          "Subclass": "Control Device",
+                          "Name": "VIVE Pro Mutimedia Audio"
+                        },
+                        {
+                          "HWID": "USB\\VID_0BB4&PID_030B&REV_0120&MI_03",
+                          "Vendor ID": "0BB4",
+                          "Device ID": "030B",
+                          "Vendor": "HTC (High Tech Computer Corp.)",
+                          "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+                          "Class Code": "030000",
+                          "Class": "Human Interface Device",
+                          "Subclass": "No Subclass",
+                          "Protocol": "None",
+                          "Name": "USB Input Device"
+                        }
+                      ]
+                    },
+                    {
+                      "HWID": "USB\\VID_28DE&PID_2101&REV_0001",
+                      "Vendor ID": "28DE",
+                      "Device ID": "2101",
+                      "Vendor": "Valve Software",
+                      "Device": "Watchman Dongle",
+                      "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+                      "Class Code": "030000",
+                      "Class": "Human Interface Device",
+                      "Subclass": "No Subclass",
+                      "Protocol": "None",
+                      "Name": "USB Input Device"
+                    },
+                    {
+                      "HWID": "USB\\VID_28DE&PID_2101&REV_0001",
+                      "Vendor ID": "28DE",
+                      "Device ID": "2101",
+                      "Vendor": "Valve Software",
+                      "Device": "Watchman Dongle",
+                      "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+                      "Class Code": "030000",
+                      "Class": "Human Interface Device",
+                      "Subclass": "No Subclass",
+                      "Protocol": "None",
+                      "Name": "USB Input Device"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "HWID": "USB\\VID_0BB4&PID_0306&REV_0112",
+              "Vendor ID": "0BB4",
+              "Device ID": "0306",
+              "Vendor": "HTC (High Tech Computer Corp.)",
+              "Device": "Vive Hub Bluetooth 4.1 (Broadcom BCM920703)",
+              "Compatible ID": "USB\\Class_FF&SubClass_01&Prot_01",
+              "Class Code": "FF0101",
+              "Class": "Vendor Specific Class",
+              "Name": "BCM20703 Bluetooth 4.1 USB Device"
+            }
+          ]
+        },
+        {
+          "HWID": "USB\\VID_0FD9&PID_0084&REV_0130",
+          "Vendor ID": "0FD9",
+          "Device ID": "0084",
+          "Vendor": "Elgato Systems GmbH",
+          "Compatible ID": "USB\\Class_03&SubClass_00&Prot_00",
+          "Class Code": "030000",
+          "Class": "Human Interface Device",
+          "Subclass": "No Subclass",
+          "Protocol": "None",
+          "Name": "USB Input Device"
+        }
+      ]
+    },
+    {
+      "HWID": "USB\\VID_0955&PID_9000",
+      "Vendor ID": "0955",
+      "Device ID": "9000",
+      "Vendor": "NVIDIA Corp.",
+      "Name": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)"
+    },
+    {
+      "HWID": "USB\\VID_0956&PID_9001",
+      "Vendor ID": "0956",
+      "Device ID": "9001",
+      "Vendor": "BSquare Corp.",
+      "Name": "NVIDIA Broadcast"
+    }
+  ],
+  "UEFI": {
+    "Boot Identifier": "{BB6C04E9-B845-11E9-BC93-953F7F4A4D3A}",
+    "Firmware Type": "UEFI",
+    "Boot Flags": "0x0000000000000000",
+    "Secure Boot": "DISABLED",
+    "OsIndicationsSupported": "0x0000000000000001",
+    "Supported OS Indication Features": [ "BootToFwUI" ],
+    "BootOptionSupport": "0x00000003",
+    "Supported Boot Options": [ "Key", "KeyCount0", "App" ],
+    "Timeout": 1,
+    "Boot Current": "0000",
+    "Boot Next": "0000",
+    "Boot Order": [ "0000", "0001", "0002", "0003" ]
+  },
+  "GPU": [
+    {
+      "HWID": "PCI\\VEN_10DE&DEV_2216&SUBSYS_389B1462&REV_A1",
+      "Device": "NVIDIA GeForce RTX 3080",
+      "Vendor": "NVIDIA",
+      "Interface": "\\\\?\\PCI#VEN_10DE&DEV_2216&SUBSYS_389B1462&REV_A1#4&1d81e16&0&00",
+      "Driver Date": " 2025-04-12 00:0000",
+      "Driver Version": "32.0.15.7602",
+      "Location": "PCI bus 11, device 0, function 0",
+      "Memory Size": "10.00 GB"
+    }
+  ]
+}
